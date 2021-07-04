@@ -21,13 +21,10 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="inc.vs\nethost.h">
+    <ClInclude Include="..\dotnet-runtime\**\*.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="inc\coreclr_delegates.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="inc\hostfxr.h">
+    <ClInclude Include="..\dotnet-runtime\**\*.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
