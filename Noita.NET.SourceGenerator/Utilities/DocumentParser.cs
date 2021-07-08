@@ -27,7 +27,7 @@ namespace Noita.NET.SourceGenerator.Utilities
             if (lineEnd == -1) goto retFalse;
 
             var line = text.Slice(0, lineEnd).TrimEnd('\r');
-
+            
         retFalse:
             Current = default;
             return false;

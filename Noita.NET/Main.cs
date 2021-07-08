@@ -10,6 +10,7 @@ namespace Noita.NET
         [UnmanagedCallersOnly]
         public static void Initialize()
         {
+            
             Debugger.Launch();
             MessageBox(IntPtr.Zero, "test", "test", 0);
         }

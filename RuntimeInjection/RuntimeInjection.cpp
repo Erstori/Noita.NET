@@ -15,7 +15,7 @@ using namespace std;
 EXTERN_C IMAGE_DOS_HEADER __ImageBase;
 
 DWORD FindProcessId(const wstring& processName);
-BOOL InjectDLL(DWORD dwProcessID, const wchar_t* dllFullPath);
+BOOL InjectDLL(DWORD dwProcessID, LPCWSTR dllFullPath);
 
 int main()
 {

@@ -7,7 +7,7 @@ namespace Noita.NET.SourceGenerator
     {
         public void Execute(GeneratorExecutionContext context)
         {
-
+            
         }
 
 
